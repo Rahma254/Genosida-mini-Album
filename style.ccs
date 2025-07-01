@@ -1,0 +1,82 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  color: #222;
+  padding: 2rem;
+  margin: 0;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  padding: 2rem;
+}
+
+video {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+input, button, textarea {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#comments {
+  margin-top: 2rem;
+}
+
+.comment {
+  background: #f1f1f1;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  border-radius: 8px;
+}
+
+.comment p {
+  margin: 0.5rem 0;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.like-btn, .share-btn {
+  cursor: pointer;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.like-btn:hover, .share-btn:hover {
+  text-decoration: underline;
+}
