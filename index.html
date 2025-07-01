@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Genosida Streams</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h1 id="title">Memuat lagu...</h1>
+  <video id="video" controls width="100%" style="max-width: 720px;"></video>
+
+  <div style="margin-top: 1rem;">
+    <button id="prev-btn">⏮ Sebelumnya</button>
+    <button id="next-btn">⏭ Berikutnya</button>
+    <button id="like-btn">❤️ Like</button>
+  </div>
+
+  <form id="comment-form" style="margin-top: 1rem;">
+    <input type="text" id="comment" placeholder="Tulis komentar..." required />
+    <button type="submit">Kirim</button>
+  </form>
+
+  <div id="comments" style="margin-top: 1rem;"></div>
+
+  <script type="module" src="js/player.js"></script>
+</body>
+</html>
